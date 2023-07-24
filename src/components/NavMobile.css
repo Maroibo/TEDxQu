@@ -1,0 +1,79 @@
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    background-color: #1A020E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    transform: translateX(0.5px);
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    height: 15em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    position: absolute;
+    width: 100%;
+}
+
+li {
+    border-bottom: 1px solid #FFF;
+    width: 100%;
+    text-align: center;
+    /* 150% */
+    flex: 1 0 0;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+li:hover a {
+    color: #F00;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-out;
+}
+
+.options {
+    position: relative;
+
+}
