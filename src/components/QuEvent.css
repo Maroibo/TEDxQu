@@ -1,0 +1,101 @@
+.QuEventcontainer p {
+    color: #FFF;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    /* 171.429% */
+}
+
+.QuEventcontainer h2 {
+    color: #76A9E3;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: 'B612', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: -0.5rem;
+    text-transform: uppercase;
+}
+
+.QuEventcontainer {
+    padding: 0.5rem 1rem;
+}
+
+.QuEventcontainer p span {
+    color: #BA4D81;
+}
+
+.QuEventcontainer p:first-of-type::after {
+    content: "-";
+}
+
+.QuEventcontainer p:first-child {
+    margin-bottom: -0.2rem;
+}
+
+.QuEventcontainer p:last-of-type {
+    margin-top: -0.2rem;
+    display: inline-block;
+}
+
+.desktopOnly {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .content {
+        display: grid;
+        grid-template-columns: 70% 20%;
+        grid-template-rows: 1fr;
+        align-items: center;
+        row-gap: 1rem;
+        height: 20vh;
+    }
+
+    .desktopOnly {
+        display: inline;
+        width: 0.6rem;
+        margin: 0 0.3rem;
+    }
+
+    .line {
+        width: 0.1rem;
+        height: 15vh;
+        display: block;
+        padding: 0;
+        background: linear-gradient(90deg, rgba(118, 169, 227, 0.00) 0%, #365A83 28.65%, #365A83 69.27%, rgba(118, 169, 227, 0.00) 100%);
+    }
+
+    .segment {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .QuEventcontainer .dates p {
+        text-align: center;
+        width: 100%;
+    }
+    .QuEventcontainer p:first-of-type::after {
+        content: "";
+    }
+
+    .QuEventcontainer p:last-of-type {
+        grid-row: 1;
+    }
+
+    .QuEventcontainer p:first-child {
+        margin-bottom: 0rem;
+    }
+
+    .QuEventcontainer p:last-of-type {
+        margin-top: 0rem;
+    }
+}

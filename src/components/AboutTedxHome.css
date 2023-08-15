@@ -1,0 +1,27 @@
+.TEDxHomecontainer {
+    background: #FFF;
+    padding: 0.5rem 1rem;
+}
+
+.TEDxHomecontainer h2 {
+    color: #F00;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: 'B612', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 96% */
+    text-transform: uppercase;
+}
+
+.TEDxHomecontainer p {
+    color: #000;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 171.429% */
+}

@@ -1,7 +1,4 @@
 .footer {
-    position: fixed;
-    bottom: 10px;
-    right: 0;
     width: 100%;
     height: 8.5em;
     display: flex;
@@ -10,6 +7,7 @@
     align-items: center;
     padding: 1.5em;
     color: #fff;
+    margin-top: 2vh;
 }
 
 .main-part {

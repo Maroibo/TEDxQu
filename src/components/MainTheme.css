@@ -1,0 +1,27 @@
+.MainThemecontainer p {
+    color: #FFF;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    /* 171.429% */
+}
+
+.MainThemecontainer h2 {
+    color: #76A9E3;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: 'B612', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 96% */
+    text-transform: uppercase;
+}
+
+.MainThemecontainer {
+    padding: 0.5rem 1rem;
+}

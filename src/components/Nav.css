@@ -1,0 +1,29 @@
+nav.desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    background: #1A020E;
+}
+
+.desktop .options {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop .options li {
+    display: inline;
+    border: none;
+}
+
+.desktop .options ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.desktop img {
+    width:8%
+}

@@ -1,0 +1,57 @@
+.JoinUscontainer {
+    background: #FFF;
+    padding: 0.5rem 1rem;
+}
+
+.JoinUscontainer h2 {
+    color: #F00;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: 'B612', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 96% */
+    text-transform: uppercase;
+}
+
+.JoinUscontainer p {
+    color: #000;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+button {
+    width: 8rem;
+    height: 2rem;
+    box-shadow: none;
+    color: white;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    color: var(--surface, #FFF);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 45% */
+    background: #F00;
+}
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+@media screen and (min-width: 500px) {
+    .buttonDiv {
+        justify-content: flex-start;
+        padding: 0.5rem 0;
+    }
+
+}
