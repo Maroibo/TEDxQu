@@ -38,9 +38,6 @@ function FooterDesktop() {
                             <li>
                                 <a href="#join-us">Join Us</a>
                             </li>
-                            <li>
-                                <a href="#contact-us">Contact Us</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
