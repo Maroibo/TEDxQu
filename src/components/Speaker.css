@@ -1,0 +1,72 @@
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+.icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    margin: 0 0.25em;
+}
+
+
+.speaker-name {
+    color: #76A9E3;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: 'B612', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 96% */
+    text-transform: uppercase;
+}
+
+.speaker-content {
+    padding:0.5rem 1rem;
+}
+
+.speaker-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.speaker-content p {
+    color: #FFF;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+    /* 171.429% */
+}
+.after-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.speaker-content span {
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Ubuntu;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+}

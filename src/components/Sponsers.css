@@ -1,0 +1,40 @@
+.Sponserscontainer {
+    background: #1A020E;
+    padding: 0.5rem 1rem;
+}
+
+.Sponserscontainer h2 {
+    color:#76A9E3 ;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: 'B612', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 96% */
+    text-transform: uppercase;
+}
+
+.Sponserscontainer p {
+    color: #000;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.sponsers-logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sponsers-logos img {
+    width: 200px;
+}
