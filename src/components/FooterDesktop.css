@@ -1,0 +1,123 @@
+.main-part.desktop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer.desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3.5rem;
+    margin-top: 10rem;
+    height: 20vh;
+}
+
+.links ul li {
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Ubuntu;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 96% */
+}
+
+.links ul {
+    width: auto;
+    height: 100%;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.links,
+.social-media.desktop {
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+}
+.links {
+    border-right: 2px solid #FFF;
+}
+
+
+.icons.desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    align-items: flex-start;
+}
+
+.icons.desktop img {
+    width: 45%;
+}
+
+.icons.desktop span {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    font-size: 0.5rem;
+    display: inline;
+    /* 175% */
+}
+
+.logo_and_text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6rem;
+    line-height: normal;
+}
+
+.logo_and_text img {
+    width: 100%;
+}
+
+.logo_and_text p {
+    width: 80%;
+}
+
+.social-media.desktop {
+    width: 22%;
+}
+
+.links {
+    width: 17%;
+    height: 100%;
+    margin-left: -11%;
+}
+.second-part.desktop {
+    margin-top: 2rem;
+}
+.icons.desktop a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icons.desktop a img {
+    width: 90%;
+    margin-right: 0.5rem;
+}
+.icons.desktop a span {
+    font-size: 0.6rem;
+}
+a {
+    text-decoration: none;
+    color: #FFF;
+}

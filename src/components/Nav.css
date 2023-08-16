@@ -12,6 +12,7 @@ nav.desktop {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 35rem;
 }
 
 .desktop .options li {
@@ -22,8 +23,10 @@ nav.desktop {
 .desktop .options ul {
     display: flex;
     flex-direction: row;
+
 }
 
 .desktop img {
-    width:8%
+    width: 10%;
+    max-width: 5.5rem;
 }
