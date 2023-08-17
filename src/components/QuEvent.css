@@ -1,6 +1,6 @@
 .QuEventcontainer p {
     color: #FFF;
-    font-feature-settings: 'clig'off, 'liga'off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: Raleway;
     font-size: 14px;
     font-style: normal;
@@ -12,7 +12,7 @@
 
 .QuEventcontainer h2 {
     color: #76A9E3;
-    font-feature-settings: 'clig'off, 'liga'off;
+    font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'B612', sans-serif;
     font-size: 25px;
     font-style: normal;
@@ -60,7 +60,7 @@
     .desktopOnly {
         display: inline;
         width: 0.6rem;
-        margin: 0 0.3rem;
+        margin: 0 0.9rem;
     }
 
     .line {
@@ -79,10 +79,12 @@
         grid-column: 2;
         grid-row: 1;
     }
+
     .QuEventcontainer .dates p {
         text-align: center;
         width: 100%;
     }
+
     .QuEventcontainer p:first-of-type::after {
         content: "";
     }
