@@ -25,3 +25,8 @@
     line-height: 24px;
     /* 171.429% */
 }
+
+.TEDxHomecontainer p span {
+    color: #F00;
+    text-decoration: underline;
+}

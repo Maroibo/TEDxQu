@@ -25,3 +25,7 @@
 .MainThemecontainer {
     padding: 0.5rem 1rem;
 }
+.MainThemecontainer p span {
+    text-decoration: underline;
+    color:#FF0000;
+}

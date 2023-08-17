@@ -3,10 +3,8 @@ import NavMobile from "./components/NavMobile.jsx"
 import FooterMobile from "./components/FooterMobile.jsx"
 import Nav from "./components/Nav.jsx"
 import FooterDesktop from "./components/FooterDesktop.jsx";
+import WhatisTEDx from "./components/WhatisTEDx.jsx";
 import { useState, useEffect } from "react";
-import Sponsers from "./components/Sponsers.jsx";
-import SpeakerMobile from "./components/SpeakerMobile.jsx";
-import SpeakerDesktop from "./components/SpeakerDesktop.jsx";
 function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -26,7 +24,7 @@ function App() {
   return (
     <>
       {isMobile ? <NavMobile /> : <Nav />}
-      {isMobile ? <SpeakerMobile /> : <SpeakerDesktop />}
+      <WhatisTEDx />
       {isMobile ? <FooterMobile /> : <FooterDesktop />} 
     </>
   )
