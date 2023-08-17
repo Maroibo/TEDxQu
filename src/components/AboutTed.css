@@ -23,5 +23,9 @@ h2 {
 }
 
 .TEDcontainer {
-    padding:0.5rem 1rem;
+    padding: 2%;
+}
+
+body {
+    cursor: pointer;
 }

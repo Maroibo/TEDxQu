@@ -3,7 +3,7 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
 }
 
 .footer.desktop {
@@ -104,11 +104,6 @@
     height: 100%;
     margin-left: -11%;
 }
-
-.second-part.desktop {
-    margin-top: 9vh;
-}
-
 .icons.desktop a {
     display: flex;
     flex-direction: row;
@@ -129,4 +124,9 @@
 a {
     text-decoration: none;
     color: #FFF;
+}
+
+.logo_and_text.desktop p {
+    width:auto;
+    font-size: 9px;
 }

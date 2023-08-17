@@ -24,19 +24,19 @@ function NavMobile() {
         <div className="options">
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="#tedxqu">TEDxQU</a>
+            <a href="/tedxqu">TEDxQU</a>
           </li>
           <li>
-            <a href="#sponsors">Sponsors</a>
+            <a href="/sponsors">Sponsors</a>
           </li>
           <li>
-            <a href="#join-us">Join Us</a>
+            <a href="/joinus">Join Us</a>
           </li>
           <li>
             <a href="#contact-us">Contact Us</a>

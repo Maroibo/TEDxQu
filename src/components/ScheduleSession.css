@@ -1,0 +1,86 @@
+.ScheduleSession span {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    padding: 0 2%;
+}
+
+.ScheduleSession span::after {
+    content: '';
+
+}
+
+.ScheduleSession {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+    font-family: Inter;
+    max-width: 750px;
+    width: 100%;
+    margin: 0;
+}
+.ScheduleSession .main-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ScheduleSession .main-part p {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+    padding: 0 3%;
+}
+
+.ScheduleSession .main-part p:first-child {
+    color: #76A9E3;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Ubuntu;
+font-weight: 500;
+}
+
+.ScheduleSession .main-part p:last-child {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 11px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+
+}
+.ScheduleSession span:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #76A9E3;
+    height: 38px;
+    width: 120px;
+    /* padding: 0px 0px; */
+    font-size: 15px;
+}
+
+.ScheduleSession .decorations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    transform: translateY(31px);
+}
+
+.ScheduleSession .decorations .line {
+    background-color: #365A83;
+    margin: 3px 0;
+    height: 12vh;
+    width: 1.5px;
+}
+
+.ScheduleSession .decorations svg {
+    width: 20px;
+    height: 20px;
+}

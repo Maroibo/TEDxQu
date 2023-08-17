@@ -1,6 +1,6 @@
 .JoinUscontainer {
     background: #FFF;
-    padding: 0.5rem 1rem;
+    padding: 2%;
 }
 
 .JoinUscontainer h2 {
@@ -40,7 +40,14 @@ button {
     font-weight: 500;
     line-height: 18px; /* 45% */
     background: #F00;
+    transition: all 0.1s linear;
 }
+button:hover {
+    background: #FFF;
+    color: #F00;
+    border: 2px solid #F00;
+}
+
 .buttonDiv {
     display: flex;
     justify-content: center;

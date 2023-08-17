@@ -4,14 +4,13 @@ function FooterDesktop() {
         <>
             <div className="footer desktop">
                 <div className="main-part desktop">
-                    <div className="logo_and_text">                <img src="../../public/TEDxQu-Logo.png" alt="" />
+                    <div className="logo_and_text desktop">                <img src="../../public/TEDxQu-Logo.png" alt="" />
                         <p>
                             Lorem ipsum dolor sit amet consectetur
                             adipisicing elit. Alias ab dolorem facere qui unde,
                             velit aliquid impedit ratione earum hic asperiores
                             magni sint iste, itaque eius! Corporis libero molestias sit!
                         </p></div>
-
                     <div className="social-media desktop">
                         <span>Follow TED on</span>
                         <div className="icons desktop">

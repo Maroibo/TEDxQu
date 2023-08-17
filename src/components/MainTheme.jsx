@@ -29,7 +29,7 @@ function MainTheme({ displayDescription }) {
       <div className="MainThemecontainer">
         <img ref={themeRef} alt="" />
         {displayDescription && (
-          <>
+          <div>
             <h2>Evolution in Action: How the Past Shapes the Future</h2>
             <p>
               Evolution in Action: How the Past Shapes the Future is a{" "}
@@ -48,7 +48,7 @@ function MainTheme({ displayDescription }) {
               attendees will gain new insights and perspectives that can inspire
               them to drive meaningful change in the future.
             </p>
-          </>
+          </div>
         )}
       </div>
     </>
