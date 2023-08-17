@@ -5,7 +5,8 @@ import Nav from "./components/Nav.jsx"
 import FooterDesktop from "./components/FooterDesktop.jsx";
 import { useState, useEffect } from "react";
 import Sponsers from "./components/Sponsers.jsx";
-import Speaker from "./components/SpeakerMobile.jsx";
+import SpeakerMobile from "./components/SpeakerMobile.jsx";
+import SpeakerDesktop from "./components/SpeakerDesktop.jsx";
 function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
@@ -25,7 +26,7 @@ function App() {
   return (
     <>
       {isMobile ? <NavMobile /> : <Nav />}
-      <Speaker />
+      {isMobile ? <SpeakerMobile /> : <SpeakerDesktop />}
       {isMobile ? <FooterMobile /> : <FooterDesktop />} 
     </>
   )

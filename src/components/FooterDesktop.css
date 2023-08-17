@@ -57,6 +57,7 @@
     padding: 0 1rem;
     margin: 0 1rem;
     align-items: flex-start;
+    padding-left: 10%;
 }
 
 .icons.desktop img {
