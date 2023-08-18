@@ -2,7 +2,7 @@ import "./AboutTedx.css"
 import text from "../../data/text.json"
 function AboutTedx() {
     return (
-        <div className="TEDxcontainer">
+        <div className="TEDxcontainer" id="about-tedx">
             <h2>
                 About TEDx
             </h2>

@@ -1,5 +1,6 @@
 import "./MainTheme.css";
 import { useEffect, useState, useRef } from "react";
+import { Link } from "react-router-dom";
 function MainTheme({ displayDescription }) {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const themeRef = useRef();
@@ -33,7 +34,7 @@ function MainTheme({ displayDescription }) {
             <h2>Evolution in Action: How the Past Shapes the Future</h2>
             <p>
               Evolution in Action: How the Past Shapes the Future is a{" "}
-              <span>TEDx</span> theme that emphasizes the importance of
+              <Link to="/#whatistedx"><span>TEDx</span></Link> theme that emphasizes the importance of
               understanding the history of different fields to trace the
               evolution of ideas and how they've shaped our present. This theme
               recognizes the intention behind seeking knowledge in various

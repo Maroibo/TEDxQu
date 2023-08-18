@@ -19,7 +19,7 @@
     height: 90px;
     align-items: center;
     font-family: Inter;
-    max-width: 750px;
+    max-width: 1000px;
     width: 100%;
     margin: 0;
 }
@@ -60,7 +60,7 @@ font-weight: 500;
     background: #76A9E3;
     height: 38px;
     width: 120px;
-    /* padding: 0px 0px; */
+    padding: 0px 0px;
     font-size: 15px;
 }
 
@@ -83,4 +83,23 @@ font-weight: 500;
 .ScheduleSession .decorations svg {
     width: 20px;
     height: 20px;
+}
+/* add a media qurei that reduces the font to 10px  */
+@media screen and (max-width: 350px) {
+    .ScheduleSession span:last-child {
+        font-size: 10px;
+    }
+    .ScheduleSession .main-part p:last-child {
+        font-size: 10px;
+    }
+    .ScheduleSession .main-part p:first-child {
+        font-size: 12px;
+    }
+    .ScheduleSession .decorations .line {
+        height: 10vh;
+    }
+    .ScheduleSession .decorations svg {
+        width: 15px;
+        height: 15px;
+    }
 }
