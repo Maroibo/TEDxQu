@@ -51,8 +51,6 @@ line-height: 42px; /* 131.25% */
 .SpeakerCard:hover h3 {
     text-decoration: underline;
 }
-
-/* I need the talk tittle to be display none on mobile  */
 @media (max-width: 768px) {
     .SpeakerCard p {
         display: none;

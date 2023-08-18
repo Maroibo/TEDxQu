@@ -38,7 +38,6 @@ function SpeakersLineUp() {
         />
         );
     });
-    console.log(speakerCards);
     return (
         <div className="SpeakersLineUpContainer">
             <h2>

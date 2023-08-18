@@ -1,0 +1,22 @@
+.BreakSessionContainer {
+    background: linear-gradient(90deg, #365A83 0%, rgba(118, 169, 227, 0.00) 50%, #365A83 100%);
+    width: 90%;
+    height: 2px;
+    position: relative;
+    max-width: 900px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.BreakSessionContainer span {
+    transform: translateY(-2px);
+    color: #76A9E3;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}

@@ -1,3 +1,4 @@
+import BreakSession from "./BreakSession";
 import "./Schedule.css";
 import ScheduleSession from "./ScheduleSession";
 function Schedule() {
@@ -33,7 +34,11 @@ function Schedule() {
   return (
     <div className="Schedulecontainer">
       <h2>Schedule</h2>
-      <div className="Sessions">{speakerSessions}</div>
+      <div className="Sessions">{speakerSessions}
+      </div>
+      <div className="Sessions">
+      <BreakSession breakName="Lunch Break" />
+        {speakerSessions}</div>
     </div>
   );
 }

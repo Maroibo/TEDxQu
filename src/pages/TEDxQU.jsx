@@ -5,8 +5,8 @@ const TEDxQU = () => {
   return (
     <>
       <MainTheme displayDescription={true} />
-      <Schedule/>
       <SpeakersLineUp/>
+      <Schedule/>
     </>
   );
 };
