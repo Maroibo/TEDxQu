@@ -6,10 +6,12 @@ function FooterDesktop() {
                 <div className="main-part desktop">
                     <div className="logo_and_text desktop">                <img src="../../public/TEDxQu-Logo.png" alt="" />
                         <p>
-                            Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit. Alias ab dolorem facere qui unde,
-                            velit aliquid impedit ratione earum hic asperiores
-                            magni sint iste, itaque eius! Corporis libero molestias sit!
+                        Step into the world of 'Evolution in Action: 
+                        How the Past Shapes the Future,' our captivating TEDx event. As we unravel the fabric of history's 
+                        influence on our present, we ignite a passion for knowledge and innovation. With a focus on diverse fields
+                        , we explore their evolution, offering fresh perspectives for the journey ahead. 
+                        Join us as we bridge the gap between eras, crafting a tapestry of ideas that fuels 
+                        our collective drive toward meaningful change.
                         </p></div>
                     <div className="social-media desktop">
                         <span>Follow TED on</span>

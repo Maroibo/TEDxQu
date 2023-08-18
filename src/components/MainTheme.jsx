@@ -30,7 +30,7 @@ function MainTheme({ displayDescription }) {
       <div className="MainThemecontainer">
         <img ref={themeRef} alt="" />
         {displayDescription && (
-          <div>
+          <div id="main-theme-text">
             <h2>Evolution in Action: How the Past Shapes the Future</h2>
             <p>
               Evolution in Action: How the Past Shapes the Future is a{" "}

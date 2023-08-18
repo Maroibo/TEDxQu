@@ -21,12 +21,13 @@ function Schedule() {
       time: "12:00 PM",
     },
   ];
-  const speakerSessions = speakers.map((speaker) => (
+  const speakerSessions = speakers.map((speaker,index) => (
     <ScheduleSession
       jobTitle={speaker.jobTitle}
       name={speaker.name}
       talkTitle={speaker.talkTitle}
       time={speaker.time}
+      key={index}
     />
   ));
   return (

@@ -1,0 +1,24 @@
+.SpeakersLineUpContainer {
+    background: #FFF;
+    padding: 2%;
+}
+
+.SpeakersLineUpContainer h2 {
+    color: #F00;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: 'B612', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 96% */
+    text-transform: uppercase;
+}
+
+    .speakers-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 20px;
+        padding: 0% 20% 0 0%;
+        justify-content: center;
+    }

@@ -1,12 +1,12 @@
 import MainTheme from "../components/MainTheme";
-import SpeakersCarousel from "../components/SpeakersCarosalMobile";
 import Schedule from "../components/Schedule";
+import SpeakersLineUp from "../components/SpeakersLineUp";
 const TEDxQU = () => {
   return (
     <>
       <MainTheme displayDescription={true} />
-      <SpeakersCarousel />
       <Schedule/>
+      <SpeakersLineUp/>
     </>
   );
 };

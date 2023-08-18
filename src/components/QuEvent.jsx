@@ -21,8 +21,8 @@ function AboutTed() {
 
                 <p>
                     Welcome to <Link to="tedxqu"><span>QU Event</span></Link>, an engaging and thought-provoking
-                    TEDx event that explores the theme of <span>&quot;Evolution in Action:
-                        How the Past Shapes the Future.&quot;</span> Join us on<span> 06/09/2023 </span>
+                    TEDx event that explores the theme of <Link to="tedxqu#main-theme-text"><span>&quot;Evolution in Action:
+                        How the Past Shapes the Future.&quot;</span></Link> Join us on<span> 06/09/2023 </span>
                     in the vibrant city of <span>Doha</span> as we embark on a captivating journey
                     of knowledge and inspiration.
                 </p>

@@ -3,7 +3,7 @@ import text from "../../data/text.json"
 import { Link } from "react-router-dom";
 function AboutTedxHome() {
     return (
-        <div className="TEDxHomecontainer">
+        <div className="TEDxHomecontainer" id="whatistedx">
             <h2>
                 What is TEDx?
             </h2>
