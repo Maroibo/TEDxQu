@@ -111,6 +111,7 @@
     height: 100%;
     margin-left: -11%;
 }
+
 .icons.desktop a {
     display: flex;
     flex-direction: row;
@@ -134,6 +135,16 @@ a {
 }
 
 .logo_and_text.desktop p {
-    width:auto;
+    width: auto;
     font-size: 9px;
+}
+
+@media (max-height: 700px) {
+    .second-part {
+        margin-top: 5vh;
+    }
+
+    .main-part.desktop {
+        margin-top: 3vh;
+    }
 }

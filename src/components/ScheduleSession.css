@@ -23,12 +23,14 @@
     width: 100%;
     margin: 0;
 }
+
 .ScheduleSession .main-part {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 .ScheduleSession .main-part p {
     margin: 0;
     text-align: left;
@@ -38,20 +40,21 @@
 
 .ScheduleSession .main-part p:first-child {
     color: #76A9E3;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Ubuntu;
-font-weight: 500;
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Ubuntu;
+    font-weight: 500;
 }
 
 .ScheduleSession .main-part p:last-child {
     color: #FFF;
-    font-feature-settings: 'clig' off, 'liga' off;
+    font-feature-settings: 'clig'off, 'liga'off;
     font-size: 11px;
     font-family: Raleway;
     font-style: normal;
     font-weight: 300;
 
 }
+
 .ScheduleSession span:last-child {
     display: flex;
     justify-content: center;
@@ -59,8 +62,8 @@ font-weight: 500;
     border-radius: 5px;
     background: #76A9E3;
     height: 38px;
-    width: 120px;
-    padding: 0px 0px;
+    width: 140px;
+    padding: 0px;
     font-size: 15px;
 }
 
@@ -84,20 +87,25 @@ font-weight: 500;
     width: 20px;
     height: 20px;
 }
+
 /* add a media qurei that reduces the font to 10px  */
 @media screen and (max-width: 350px) {
     .ScheduleSession span:last-child {
         font-size: 10px;
     }
+
     .ScheduleSession .main-part p:last-child {
         font-size: 10px;
     }
+
     .ScheduleSession .main-part p:first-child {
         font-size: 12px;
     }
+
     .ScheduleSession .decorations .line {
         height: 10vh;
     }
+
     .ScheduleSession .decorations svg {
         width: 15px;
         height: 15px;

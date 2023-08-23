@@ -1,5 +1,8 @@
 import "./JoinUs.css"
 function JoinUs() {
+    function handleClick() {
+        window.open("https://quqa.campuslabs.com/engage/submitter/form/step/1?Guid=5cc8a419-66bc-4c12-a53e-39e00b45a70e");
+    }
     return (
         <div className="JoinUscontainer">
             <h2>
@@ -10,7 +13,7 @@ function JoinUs() {
                 inspiration, we invite you to join us on this incredible journey.
             </p>
             <div className="buttonDiv">
-                <button>Join as Attendee</button>
+                <button onClick={handleClick}>Join as Attendee</button>
             </div>
 
         </div>

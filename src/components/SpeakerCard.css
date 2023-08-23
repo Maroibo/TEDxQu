@@ -1,13 +1,15 @@
 .speaker-image {
-    width: 100px;
-    height: 100px;
+    width: 10vw;
+    min-width: 100px;
     overflow: hidden;
-    border-radius: 50%; /* Creates a circular shape */
-    margin: 0 auto 10px; /* Center the image */
-    border: 2px solid #7A3356; /* Add a border with the specified color */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    border-radius: 50%;
+    margin: 3vw;
+    border: 2px solid #7A3356;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease-in-out;
 }
+
+
 
 .speaker-image img {
     width: 100%;
@@ -15,42 +17,46 @@
     object-fit: cover;
 }
 
+
 .SpeakerCard {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: row;
     padding: 5%;
-    max-width: 350px;
+    /* width: 400px; */
 }
 
 .SpeakerCard h3 {
     color: #7A3356;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-transition: all 0.2s ease-in-out;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all 0.2s ease-in-out;
 }
 
 .SpeakerCard p {
     color: #BA4D81;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Raleway;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 42px; /* 131.25% */
+    font-feature-settings: 'clig'off, 'liga'off;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    /* 131.25% */
 }
 
 /* On hover, the profile image scales up and the name is underlined */
-.SpeakerCard:hover .speaker-image {
+/* .SpeakerCard:hover .speaker-image {
     transform: scale(1.1);
 }
+
 .SpeakerCard:hover h3 {
     text-decoration: underline;
-}
+} */
+
 @media (max-width: 768px) {
     .SpeakerCard p {
         display: none;
