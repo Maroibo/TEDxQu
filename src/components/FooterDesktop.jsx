@@ -6,12 +6,12 @@ function FooterDesktop() {
                 <div className="main-part desktop">
                     <div className="logo_and_text desktop">                <img src="../../public/TEDxQu-Logo.png" alt="" />
                         <p>
-                        Step into the world of 'Evolution in Action: 
-                        How the Past Shapes the Future,' our captivating TEDx event. As we unravel the fabric of history's 
-                        influence on our present, we ignite a passion for knowledge and innovation. With a focus on diverse fields
-                        , we explore their evolution, offering fresh perspectives for the journey ahead. 
-                        Join us as we bridge the gap between eras, crafting a tapestry of ideas that fuels 
-                        our collective drive toward meaningful change.
+                            Step into the world of 'Evolution in Action:
+                            How the Past Shapes the Future,' our captivating TEDx event. As we unravel the fabric of history's
+                            influence on our present, we ignite a passion for knowledge and innovation. With a focus on diverse fields
+                            , we explore their evolution, offering fresh perspectives for the journey ahead.
+                            Join us as we bridge the gap between eras, crafting a tapestry of ideas that fuels
+                            our collective drive toward meaningful change.
                         </p></div>
                     <div className="social-media desktop">
                         <span>Follow TED on</span>
@@ -30,9 +30,9 @@ function FooterDesktop() {
                             <li>
                                 <a href="#about">About</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#tedxqu">TEDxQU</a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href="#sponsors">Sponsors</a>
                             </li>

@@ -11,9 +11,9 @@ export default function Nav() {
           <li>
             <a href="/about">About</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/tedxqu">TEDxQU</a>
-          </li>
+          </li> */}
           <li>
             <a href="/sponsors">Sponsors</a>
           </li>

@@ -15,7 +15,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="joinus" element={<JoinUsPage />} />
             <Route path="sponsors" element={<SponsorsPage />} />
-            <Route path="tedxqu" element={<TEDxQU />} />
+            {/* <Route path="tedxqu" element={<TEDxQU />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>
