@@ -25,19 +25,19 @@ function FooterDesktop() {
                     <div className="links">
                         <ul>
                             <li>
-                                <a href="#home">Home</a>
+                                <a href="/TEDxQu/">Home</a>
                             </li>
                             <li>
-                                <a href="#about">About</a>
+                                <a href="/TEDxQu/about">About</a>
                             </li>
                             {/* <li>
                                 <a href="#tedxqu">TEDxQU</a>
                             </li> */}
                             <li>
-                                <a href="#sponsors">Sponsors</a>
+                                <a href="/TEDxQu/sponsors">Sponsors</a>
                             </li>
                             <li>
-                                <a href="#join-us">Join Us</a>
+                                <a href="/TEDxQu/joinus">Join Us</a>
                             </li>
                         </ul>
                     </div>
