@@ -10,11 +10,11 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/TEDxQu/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="joinus" element={<JoinUsPage />} />
-            <Route path="sponsors" element={<SponsorsPage />} />
+            <Route path="/TEDxQu/about" element={<About />} />
+            <Route path="/TEDxQu/joinus" element={<JoinUsPage />} />
+            <Route path="/TEDxQu/sponsors" element={<SponsorsPage />} />
             {/* <Route path="tedxqu" element={<TEDxQU />} /> */}
           </Route>
         </Routes>
