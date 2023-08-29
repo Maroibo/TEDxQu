@@ -2,7 +2,6 @@
   "name": "tedx",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Maroibo.github.io/TEDxQu",
   "type": "module",
   "scripts": {
     "dev": "vite",
