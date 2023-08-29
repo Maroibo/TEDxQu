@@ -1,6 +1,6 @@
 import QuEvent from "../components/QuEvent";
 import WhatisTEDx from "../components/WhatisTEDx";
-const intro_Video = "../../public/TEDxQu Intro_4.mp4";
+const intro_Video = "../../public/ORGANIZER PROMO.mp4 ";
 const Home = () => {
   return (
     <>
