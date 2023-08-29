@@ -27,6 +27,7 @@ ul {
     padding-bottom: .5em;
     position: absolute;
     width: 100%;
+    z-index: 10000;
 }
 
 li {

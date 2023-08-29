@@ -1,27 +1,36 @@
+import { Link } from "react-router-dom";
 import "./Nav.css";
+import tedxQuLogo from "../../public/TEDxQu-Logo.png"; // Import the logo image
+
 export default function Nav() {
   return (
     <nav className="desktop">
-      <img src="../../public/TEDxQu-Logo.png" alt="" />
+      <img src={tedxQuLogo} alt="" /> {/* Use the imported image */}
       <div className="options">
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </li>
           {/* <li>
-            <a href="/tedxqu">TEDxQU</a>
+            <a href="#tedxqu">TEDxQU</a>
           </li> */}
           <li>
-            <a href="/sponsors">Sponsors</a>
+            <Link to="/sponsors">Sponsors</Link>
           </li>
           <li>
-            <a href="/joinus">Join Us</a>
+            <Link to="/joinus">Join Us</Link>
           </li>
           <li>
-            <a href="https://linktr.ee/tedxqu?fbclid=PAAaYTcMfsNSmzEyYNfPkIjCKKuvIijTGlVZYsx1E-cIrLeew3JNh8epHklHc_aem_Ab7G7VqTaMpHePTqAZMhi0crcOhVzfDe25PoprRUjPc_4zOxpKGNCzBaT25AW9y3irc" target="_blank">Contact Us</a>
+            <a
+              href="https://linktr.ee/tedxqu?fbclid=PAAaYTcMfsNSmzEyYNfPkIjCKKuvIijTGlVZYsx1E-cIrLeew3JNh8epHklHc_aem_Ab7G7VqTaMpHePTqAZMhi0crcOhVzfDe25PoprRUjPc_4zOxpKGNCzBaT25AW9y3irc"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contact Us
+            </a>
           </li>
         </ul>
       </div>

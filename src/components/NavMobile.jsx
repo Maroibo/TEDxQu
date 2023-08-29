@@ -1,19 +1,28 @@
-import "./NavMobile.css"
-import { useState } from "react"
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
+import "./NavMobile.css";
+import tedxQuLogo from "../../public/TEDxQu-Logo.png"; // Import the logo image
+import menuIcon from "../../public/menu.svg"; // Import the menu icon
+import xIcon from "../../public/x.png"; // Import the close icon
+
 function NavMobile() {
-  const [nav, setNav] = useState(true)
-  const navIcon = "../../public/menu.svg"
-  const navIconAlt = "../../public/x.png"
+  const [nav, setNav] = useState(true);
+
   function toggleNav() {
-    setNav(!nav)
+    setNav(!nav);
   }
+
   return (
     <>
       <nav>
         <div className="nav-icons">
-          <img src="../../public/TEDxQu-Logo.png" alt="" />
-          <img src={nav ? navIcon : navIconAlt} onClick={toggleNav} alt="" />
+          <img src={tedxQuLogo} alt="TEDxQu Logo" />
+          <img
+            src={nav ? menuIcon : xIcon}
+            onClick={toggleNav}
+            alt={nav ? "Menu Icon" : "Close Icon"}
+          />
         </div>
         <CSSTransition
           in={!nav}
@@ -24,29 +33,35 @@ function NavMobile() {
           <div className="options">
             <ul>
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/TEDxQu/about">About</a>
+                <Link to="/about">About</Link>
               </li>
               {/* <li>
-            <a href="/tedxqu">TEDxQU</a>
+            <Link to="/tedxqu">TEDxQU</Link>
           </li> */}
               <li>
-                <a href="/sponsors">Sponsors</a>
+                <Link to="/sponsors">Sponsors</Link>
               </li>
               <li>
-                <a href="/joinus">Join Us</a>
+                <Link to="/joinus">Join Us</Link>
               </li>
               <li>
-                <a href="https://linktr.ee/tedxqu?fbclid=PAAaYTcMfsNSmzEyYNfPkIjCKKuvIijTGlVZYsx1E-cIrLeew3JNh8epHklHc_aem_Ab7G7VqTaMpHePTqAZMhi0crcOhVzfDe25PoprRUjPc_4zOxpKGNCzBaT25AW9y3irc" target="_blank">Contact Us</a>
+                <a
+                  href="https://linktr.ee/tedxqu?fbclid=PAAaYTcMfsNSmzEyYNfPkIjCKKuvIijTGlVZYsx1E-cIrLeew3JNh8epHklHc_aem_Ab7G7VqTaMpHePTqAZMhi0crcOhVzfDe25PoprRUjPc_4zOxpKGNCzBaT25AW9y3irc"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Contact Us
+                </a>
               </li>
             </ul>
           </div>
         </CSSTransition>
       </nav>
     </>
-  )
+  );
 }
 
-export default NavMobile
+export default NavMobile;
