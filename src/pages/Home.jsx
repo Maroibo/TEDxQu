@@ -1,6 +1,6 @@
 import QuEvent from "../components/QuEvent";
 import WhatisTEDx from "../components/WhatisTEDx";
-
+const intro_Video = "../../public/TEDxQu Intro_4.mp4";
 const Home = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const Home = () => {
         }
       }>
         <video id="promo-video" autoPlay muted controls >
-          <source src="../../public/ORGANIZER PROMO.mp4" type="video/mp4" />
+          <source src={intro_Video} type="video/mp4" />
         </video>
       </div>
 

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
 import "./FooterDesktop.css";
 import tedxQuLogo from "../../public/TEDxQu-Logo.png"; // Import the logo image

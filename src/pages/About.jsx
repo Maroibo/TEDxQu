@@ -1,6 +1,6 @@
 import AboutTed from "../components/AboutTed";
 import AboutTedx from "../components/AboutTedx";
-
+const intro_Video = "../../public/TEDxQu Intro_4.mp4";
 const About = () => {
   return (
     <>
@@ -21,7 +21,7 @@ const About = () => {
           minWidth: "100%",
         }
         }>
-          <source src="../../public/TEDxQu Intro_4.mp4" type="video/mp4" />
+          <source src={intro_Video} type="video/mp4" />
         </video>
       </div>
       <AboutTed />
