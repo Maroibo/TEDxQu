@@ -6,19 +6,19 @@ export default function Nav() {
       <div className="options">
         <ul>
           <li>
-            <a href="/TEDxQu/">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="/TEDxQu/about">About</a>
+            <a href="/about">About</a>
           </li>
           {/* <li>
             <a href="/tedxqu">TEDxQU</a>
           </li> */}
           <li>
-            <a href="/TEDxQu/sponsors">Sponsors</a>
+            <a href="/sponsors">Sponsors</a>
           </li>
           <li>
-            <a href="/TEDxQu/joinus">Join Us</a>
+            <a href="/joinus">Join Us</a>
           </li>
           <li>
             <a href="https://linktr.ee/tedxqu?fbclid=PAAaYTcMfsNSmzEyYNfPkIjCKKuvIijTGlVZYsx1E-cIrLeew3JNh8epHklHc_aem_Ab7G7VqTaMpHePTqAZMhi0crcOhVzfDe25PoprRUjPc_4zOxpKGNCzBaT25AW9y3irc" target="_blank">Contact Us</a>
