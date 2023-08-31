@@ -1,7 +1,7 @@
 import "./JoinUs.css"
 function JoinUs() {
     function handleClick() {
-        window.open("https://quqa.campuslabs.com/engage/submitter/form/step/1?Guid=5cc8a419-66bc-4c12-a53e-39e00b45a70e");
+        window.open("https://quqa.campuslabs.com/engage/submitter/form/step/1?Guid=bb877911-29f6-41c2-9d0a-1076b2a174a3");
     }
     return (
         <div className="JoinUscontainer">
