@@ -14,9 +14,9 @@ export default function Nav() {
           <li>
             <Link to="/about">About</Link>
           </li>
-          {/* <li>
-            <a href="#tedxqu">TEDxQU</a>
-          </li> */}
+          <li>
+            <Link to="/tedxqu">TEDxQU</Link>
+          </li>
           <li>
             <Link to="/sponsors">Sponsors</Link>
           </li>

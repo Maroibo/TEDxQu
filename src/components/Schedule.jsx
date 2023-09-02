@@ -4,25 +4,53 @@ import ScheduleSession from "./ScheduleSession";
 function Schedule() {
   const speakers = [
     {
-      jobTitle: "Senior Software Engineer",
-      name: "John Doe",
-      talkTitle: "React Hooks",
-      time: "10:00 AM",
+      name: "لبابة يوسف",
+      talkTitle: "صو تك مصدر قوتك",
+      time: "02:00 PM",
     },
     {
-      jobTitle: "Senior Software Engineer",
-      name: "Jane Doe",
-      talkTitle: "React Native",
-      time: "11:00 AM",
+      name: "د . خالد الخنجي",
+      talkTitle: "نصيحة شكلتني",
+      time: "02:30 PM",
     },
     {
-      jobTitle: "Senior Software Engineer",
-      name: "James Doe",
-      talkTitle: "React Context",
-      time: "12:00 PM",
+      name: "حصة السويدي",
+      talkTitle: "الجرأة الأدبية و مفاتيح التغير",
+      time: "03:00 PM",
     },
   ];
-  const speakerSessions = speakers.map((speaker,index) => (
+  const speakers2 = [
+    {
+      name: "عائشة الرميحي",
+      talkTitle: "التنمية المستدامة وأهمية البحث العلمي",
+      time: "04:00 PM",
+    },
+    {
+      name: "أ. ريهام هذيل",
+      talkTitle: "عندما يصبح الحلم حقيقة",
+      time: "04:30 PM",
+    },
+    {
+      name: "شذى بنبية",
+      talkTitle: "كيفية النجاح في زمن ثورة الذكاء الصناعي",
+      time: "05:00 PM",
+    },
+    {
+      name: "سما الدوري",
+      talkTitle: "كيف تنتصر على وحشك",
+      time: "05:30 PM",
+    }
+  ]
+  const speakerSessions = speakers.map((speaker, index) => (
+    <ScheduleSession
+      jobTitle={speaker.jobTitle}
+      name={speaker.name}
+      talkTitle={speaker.talkTitle}
+      time={speaker.time}
+      key={index}
+    />
+  ));
+  const speakerSessions2 = speakers2.map((speaker, index) => (
     <ScheduleSession
       jobTitle={speaker.jobTitle}
       name={speaker.name}
@@ -37,8 +65,8 @@ function Schedule() {
       <div className="Sessions">{speakerSessions}
       </div>
       <div className="Sessions">
-      <BreakSession breakName="Lunch Break" />
-        {speakerSessions}</div>
+        <BreakSession breakName="إستراحة قصيرة" />
+        {speakerSessions2}</div>
     </div>
   );
 }

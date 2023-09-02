@@ -38,9 +38,9 @@ function NavMobile() {
               <li>
                 <Link to="/about">About</Link>
               </li>
-              {/* <li>
-            <Link to="/tedxqu">TEDxQU</Link>
-          </li> */}
+              <li>
+                <Link to="/tedxqu">TEDxQU</Link>
+              </li>
               <li>
                 <Link to="/sponsors">Sponsors</Link>
               </li>
