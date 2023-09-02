@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
-            <Route path="joinus" element={<JoinUsPage />} />
+            {/* <Route path="joinus" element={<JoinUsPage />} /> */}
             <Route path="sponsors" element={<SponsorsPage />} />
             <Route path="tedxqu" element={<TEDxQU setSpeakerProps={setSpeakerProps} />} />
             <Route path="speaker" element={<SpeakerMain speakerProps={speakerProps} />} />

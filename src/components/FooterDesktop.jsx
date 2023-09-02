@@ -60,9 +60,9 @@ function FooterDesktop() {
                             <li>
                                 <Link to="/sponsors">Sponsors</Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link to="/joinus">Join Us</Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

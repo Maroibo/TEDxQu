@@ -44,9 +44,9 @@ function NavMobile() {
               <li>
                 <Link to="/sponsors">Sponsors</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/joinus">Join Us</Link>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="https://linktr.ee/tedxqu?fbclid=PAAaYTcMfsNSmzEyYNfPkIjCKKuvIijTGlVZYsx1E-cIrLeew3JNh8epHklHc_aem_Ab7G7VqTaMpHePTqAZMhi0crcOhVzfDe25PoprRUjPc_4zOxpKGNCzBaT25AW9y3irc"
