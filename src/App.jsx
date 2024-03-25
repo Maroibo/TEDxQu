@@ -1,7 +1,7 @@
 import Home from "./pages/Home.jsx";
 import Layout from "./pages/Layout.jsx";
 import About from "./pages/About.jsx";
-import JoinUsPage from "./pages/JoinUsPage.jsx";
+// import JoinUsPage from "./pages/JoinUsPage.jsx";
 import SponsorsPage from "./pages/SponsorsPage.jsx";
 import TEDxQU from "./pages/TEDxQU.jsx";
 import SpeakerMain from "./pages/SpeakerMain.jsx";
